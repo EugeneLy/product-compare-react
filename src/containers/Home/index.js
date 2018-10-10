@@ -13,6 +13,8 @@ class Home extends Component {
     const {products, actions} = this.props;
     const compareProducts = products.filter(product => product.compare);
 
+    console.log(products)
+
     return (
       <div className="home mt-5">
         <div className="row">
