@@ -488,3 +488,491 @@ ShallowWrapper {
   },
 }
 `;
+
+exports[`Test product renders properly compare 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Product
+    product={
+        Object {
+            "compare": true,
+            "condition": "Fresh",
+            "description": "Two Cherries",
+            "id": 1,
+            "image": "images/Cherry.png",
+            "name": "Cherry",
+            "price": "$1.99",
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": "1",
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="product compare"
+>
+        <img
+                alt="Cherry"
+                src="images/Cherry.png"
+        />
+        <div
+                className="image_overlay"
+        />
+        <div
+                className="view_details"
+                onClick={[Function]}
+        >
+                Remove
+        </div>
+        <div
+                className="stats"
+        >
+                <div
+                        className="stats-container"
+                >
+                        <span
+                                className="product_price"
+                        >
+                                $1.99
+                        </span>
+                        <span
+                                className="product_name"
+                        >
+                                Cherry
+                        </span>
+                        <p>
+                                Two Cherries
+                        </p>
+                </div>
+        </div>
+</div>,
+      "className": "col-sm-6 col-md-3",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <img
+            alt="Cherry"
+            src="images/Cherry.png"
+/>,
+          <div
+            className="image_overlay"
+/>,
+          <div
+            className="view_details"
+            onClick={[Function]}
+>
+            Remove
+</div>,
+          <div
+            className="stats"
+>
+            <div
+                        className="stats-container"
+            >
+                        <span
+                                    className="product_price"
+                        >
+                                    $1.99
+                        </span>
+                        <span
+                                    className="product_name"
+                        >
+                                    Cherry
+                        </span>
+                        <p>
+                                    Two Cherries
+                        </p>
+            </div>
+</div>,
+        ],
+        "className": "product compare",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "Cherry",
+            "src": "images/Cherry.png",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "image_overlay",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Remove",
+            "className": "view_details",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Remove",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="stats-container"
+>
+              <span
+                            className="product_price"
+              >
+                            $1.99
+              </span>
+              <span
+                            className="product_name"
+              >
+                            Cherry
+              </span>
+              <p>
+                            Two Cherries
+              </p>
+</div>,
+            "className": "stats",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="product_price"
+>
+                  $1.99
+</span>,
+                <span
+                  className="product_name"
+>
+                  Cherry
+</span>,
+                <p>
+                  Two Cherries
+</p>,
+              ],
+              "className": "stats-container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "$1.99",
+                  "className": "product_price",
+                },
+                "ref": null,
+                "rendered": "$1.99",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Cherry",
+                  "className": "product_name",
+                },
+                "ref": null,
+                "rendered": "Cherry",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Two Cherries",
+                },
+                "ref": null,
+                "rendered": "Two Cherries",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": "1",
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="product compare"
+>
+          <img
+                    alt="Cherry"
+                    src="images/Cherry.png"
+          />
+          <div
+                    className="image_overlay"
+          />
+          <div
+                    className="view_details"
+                    onClick={[Function]}
+          >
+                    Remove
+          </div>
+          <div
+                    className="stats"
+          >
+                    <div
+                              className="stats-container"
+                    >
+                              <span
+                                        className="product_price"
+                              >
+                                        $1.99
+                              </span>
+                              <span
+                                        className="product_name"
+                              >
+                                        Cherry
+                              </span>
+                              <p>
+                                        Two Cherries
+                              </p>
+                    </div>
+          </div>
+</div>,
+        "className": "col-sm-6 col-md-3",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt="Cherry"
+              src="images/Cherry.png"
+/>,
+            <div
+              className="image_overlay"
+/>,
+            <div
+              className="view_details"
+              onClick={[Function]}
+>
+              Remove
+</div>,
+            <div
+              className="stats"
+>
+              <div
+                            className="stats-container"
+              >
+                            <span
+                                          className="product_price"
+                            >
+                                          $1.99
+                            </span>
+                            <span
+                                          className="product_name"
+                            >
+                                          Cherry
+                            </span>
+                            <p>
+                                          Two Cherries
+                            </p>
+              </div>
+</div>,
+          ],
+          "className": "product compare",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "Cherry",
+              "src": "images/Cherry.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "image_overlay",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Remove",
+              "className": "view_details",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Remove",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="stats-container"
+>
+                <span
+                                className="product_price"
+                >
+                                $1.99
+                </span>
+                <span
+                                className="product_name"
+                >
+                                Cherry
+                </span>
+                <p>
+                                Two Cherries
+                </p>
+</div>,
+              "className": "stats",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="product_price"
+>
+                    $1.99
+</span>,
+                  <span
+                    className="product_name"
+>
+                    Cherry
+</span>,
+                  <p>
+                    Two Cherries
+</p>,
+                ],
+                "className": "stats-container",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "$1.99",
+                    "className": "product_price",
+                  },
+                  "ref": null,
+                  "rendered": "$1.99",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Cherry",
+                    "className": "product_name",
+                  },
+                  "ref": null,
+                  "rendered": "Cherry",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Two Cherries",
+                  },
+                  "ref": null,
+                  "rendered": "Two Cherries",
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
