@@ -19,7 +19,9 @@ describe('Test product', () => {
         compare: true
     }
 
-    const product = shallow(<Product key={mockedProduct.id} product={mockedProduct} />)
+    const mockCompare = jest.fn();
+
+    const product = shallow(<Product key={mockedProduct.id} product={mockedProduct} compare={mockCompare} />)
     const productCompare = shallow(<Product key={mockedNextProps.id} product={mockedNextProps} />)
 
     it('default mode', () => {
@@ -28,6 +30,15 @@ describe('Test product', () => {
 
     it('compare mode', () => {
         expect(productCompare.find('.view_details').text()).toEqual('Remove');
+    })
+
+    it('click on button', () => {
+        product.find('.view_details').simulate('click', mockedProduct);
+        expect(mockCompare).toHaveBeenCalledTimes(1);
+    })
+
+    it('renders properly', () => {
+        expect(product).toMatchSnapshot();
     })
 })
 

@@ -12,6 +12,8 @@ describe('Test productList', () => {
         expect(productList.find('Product')).toHaveLength(0);
     })
 
-
+    it('renders properly', () => {
+        expect(productList).toMatchSnapshot();
+    })
 })
 
